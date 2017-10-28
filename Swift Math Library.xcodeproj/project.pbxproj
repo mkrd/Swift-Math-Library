@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2383D9C1FA492FE004C0F5E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383D9B1FA492FE004C0F5E /* main.swift */; };
+		C2383DA51FA49333004C0F5E /* SMT Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA21FA49332004C0F5E /* SMT Math.swift */; };
+		C2383DA61FA49333004C0F5E /* SMT Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA31FA49332004C0F5E /* SMT Complex.swift */; };
+		C2383DA71FA49333004C0F5E /* SMT Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA41FA49332004C0F5E /* SMT Matrix.swift */; };
+		C2383DAF1FA49394004C0F5E /* SMT Math Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DAE1FA49394004C0F5E /* SMT Math Tests.swift */; };
+		C2383DB41FA49425004C0F5E /* SMT Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA31FA49332004C0F5E /* SMT Complex.swift */; };
+		C2383DB51FA49425004C0F5E /* SMT Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA41FA49332004C0F5E /* SMT Matrix.swift */; };
+		C2383DB61FA49425004C0F5E /* SMT Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA21FA49332004C0F5E /* SMT Math.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2383D961FA492FE004C0F5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2383D981FA492FE004C0F5E /* Swift Math Library */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift Math Library"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2383D9B1FA492FE004C0F5E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C2383DA21FA49332004C0F5E /* SMT Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMT Math.swift"; sourceTree = "<group>"; };
+		C2383DA31FA49332004C0F5E /* SMT Complex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMT Complex.swift"; sourceTree = "<group>"; };
+		C2383DA41FA49332004C0F5E /* SMT Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMT Matrix.swift"; sourceTree = "<group>"; };
+		C2383DAC1FA49394004C0F5E /* SMT Math Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SMT Math Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2383DAE1FA49394004C0F5E /* SMT Math Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SMT Math Tests.swift"; sourceTree = "<group>"; };
+		C2383DB01FA49394004C0F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2383D951FA492FE004C0F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2383DA91FA49394004C0F5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2383D8F1FA492FE004C0F5E = {
+			isa = PBXGroup;
+			children = (
+				C2383D9B1FA492FE004C0F5E /* main.swift */,
+				C2383D9A1FA492FE004C0F5E /* Sources */,
+				C2383DAD1FA49394004C0F5E /* SMT Math Tests */,
+				C2383D991FA492FE004C0F5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2383D991FA492FE004C0F5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2383D981FA492FE004C0F5E /* Swift Math Library */,
+				C2383DAC1FA49394004C0F5E /* SMT Math Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2383D9A1FA492FE004C0F5E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C2383DA31FA49332004C0F5E /* SMT Complex.swift */,
+				C2383DA21FA49332004C0F5E /* SMT Math.swift */,
+				C2383DA41FA49332004C0F5E /* SMT Matrix.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		C2383DAD1FA49394004C0F5E /* SMT Math Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2383DAE1FA49394004C0F5E /* SMT Math Tests.swift */,
+				C2383DB01FA49394004C0F5E /* Info.plist */,
+			);
+			path = "SMT Math Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2383D971FA492FE004C0F5E /* Swift Math Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2383D9F1FA492FE004C0F5E /* Build configuration list for PBXNativeTarget "Swift Math Library" */;
+			buildPhases = (
+				C2383D941FA492FE004C0F5E /* Sources */,
+				C2383D951FA492FE004C0F5E /* Frameworks */,
+				C2383D961FA492FE004C0F5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Math Library";
+			productName = "Swift Math Library";
+			productReference = C2383D981FA492FE004C0F5E /* Swift Math Library */;
+			productType = "com.apple.product-type.tool";
+		};
+		C2383DAB1FA49394004C0F5E /* SMT Math Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2383DB11FA49394004C0F5E /* Build configuration list for PBXNativeTarget "SMT Math Tests" */;
+			buildPhases = (
+				C2383DA81FA49394004C0F5E /* Sources */,
+				C2383DA91FA49394004C0F5E /* Frameworks */,
+				C2383DAA1FA49394004C0F5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SMT Math Tests";
+			productName = "SMT Math Tests";
+			productReference = C2383DAC1FA49394004C0F5E /* SMT Math Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2383D901FA492FE004C0F5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Marcel Kröker";
+				TargetAttributes = {
+					C2383D971FA492FE004C0F5E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					C2383DAB1FA49394004C0F5E = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C2383D931FA492FE004C0F5E /* Build configuration list for PBXProject "Swift Math Library" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2383D8F1FA492FE004C0F5E;
+			productRefGroup = C2383D991FA492FE004C0F5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2383D971FA492FE004C0F5E /* Swift Math Library */,
+				C2383DAB1FA49394004C0F5E /* SMT Math Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2383DAA1FA49394004C0F5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2383D941FA492FE004C0F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2383DA61FA49333004C0F5E /* SMT Complex.swift in Sources */,
+				C2383D9C1FA492FE004C0F5E /* main.swift in Sources */,
+				C2383DA51FA49333004C0F5E /* SMT Math.swift in Sources */,
+				C2383DA71FA49333004C0F5E /* SMT Matrix.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2383DA81FA49394004C0F5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2383DB41FA49425004C0F5E /* SMT Complex.swift in Sources */,
+				C2383DB51FA49425004C0F5E /* SMT Matrix.swift in Sources */,
+				C2383DB61FA49425004C0F5E /* SMT Math.swift in Sources */,
+				C2383DAF1FA49394004C0F5E /* SMT Math Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2383D9D1FA492FE004C0F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2383D9E1FA492FE004C0F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		C2383DA01FA492FE004C0F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C2383DA11FA492FE004C0F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		C2383DB21FA49394004C0F5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SMT Math Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blubyte.SMT-Math-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C2383DB31FA49394004C0F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "SMT Math Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Blubyte.SMT-Math-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2383D931FA492FE004C0F5E /* Build configuration list for PBXProject "Swift Math Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2383D9D1FA492FE004C0F5E /* Debug */,
+				C2383D9E1FA492FE004C0F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2383D9F1FA492FE004C0F5E /* Build configuration list for PBXNativeTarget "Swift Math Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2383DA01FA492FE004C0F5E /* Debug */,
+				C2383DA11FA492FE004C0F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2383DB11FA49394004C0F5E /* Build configuration list for PBXNativeTarget "SMT Math Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2383DB21FA49394004C0F5E /* Debug */,
+				C2383DB31FA49394004C0F5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2383D901FA492FE004C0F5E /* Project object */;
+}
