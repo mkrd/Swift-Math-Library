@@ -33,9 +33,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C2383DAB1FA49394004C0F5E"
-               BuildableName = "SMT Math Tests.xctest"
-               BlueprintName = "SMT Math Tests"
+               BlueprintIdentifier = "C2383DBA1FA4966A004C0F5E"
+               BuildableName = "tests.xctest"
+               BlueprintName = "tests"
                ReferencedContainer = "container:Swift Math Library.xcodeproj">
             </BuildableReference>
          </TestableReference>

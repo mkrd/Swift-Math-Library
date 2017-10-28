@@ -11,10 +11,10 @@
 		C2383DA51FA49333004C0F5E /* SMT Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA21FA49332004C0F5E /* SMT Math.swift */; };
 		C2383DA61FA49333004C0F5E /* SMT Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA31FA49332004C0F5E /* SMT Complex.swift */; };
 		C2383DA71FA49333004C0F5E /* SMT Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA41FA49332004C0F5E /* SMT Matrix.swift */; };
-		C2383DAF1FA49394004C0F5E /* SMT Math Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DAE1FA49394004C0F5E /* SMT Math Tests.swift */; };
-		C2383DB41FA49425004C0F5E /* SMT Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA31FA49332004C0F5E /* SMT Complex.swift */; };
-		C2383DB51FA49425004C0F5E /* SMT Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA41FA49332004C0F5E /* SMT Matrix.swift */; };
-		C2383DB61FA49425004C0F5E /* SMT Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA21FA49332004C0F5E /* SMT Math.swift */; };
+		C2383DC31FA49672004C0F5E /* SMT Math Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DAE1FA49394004C0F5E /* SMT Math Tests.swift */; };
+		C2383DC41FA4969A004C0F5E /* SMT Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA31FA49332004C0F5E /* SMT Complex.swift */; };
+		C2383DC51FA4969A004C0F5E /* SMT Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA21FA49332004C0F5E /* SMT Math.swift */; };
+		C2383DC61FA4969A004C0F5E /* SMT Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2383DA41FA49332004C0F5E /* SMT Matrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,9 +35,9 @@
 		C2383DA21FA49332004C0F5E /* SMT Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMT Math.swift"; sourceTree = "<group>"; };
 		C2383DA31FA49332004C0F5E /* SMT Complex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMT Complex.swift"; sourceTree = "<group>"; };
 		C2383DA41FA49332004C0F5E /* SMT Matrix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SMT Matrix.swift"; sourceTree = "<group>"; };
-		C2383DAC1FA49394004C0F5E /* SMT Math Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SMT Math Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2383DAE1FA49394004C0F5E /* SMT Math Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SMT Math Tests.swift"; sourceTree = "<group>"; };
-		C2383DB01FA49394004C0F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2383DBB1FA4966A004C0F5E /* tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2383DBF1FA4966A004C0F5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2383DA91FA49394004C0F5E /* Frameworks */ = {
+		C2383DB81FA4966A004C0F5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,8 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				C2383D9B1FA492FE004C0F5E /* main.swift */,
-				C2383D9A1FA492FE004C0F5E /* Sources */,
-				C2383DAD1FA49394004C0F5E /* SMT Math Tests */,
+				C2383D9A1FA492FE004C0F5E /* sources */,
+				C2383DBC1FA4966A004C0F5E /* tests */,
 				C2383D991FA492FE004C0F5E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,28 +72,28 @@
 			isa = PBXGroup;
 			children = (
 				C2383D981FA492FE004C0F5E /* Swift Math Library */,
-				C2383DAC1FA49394004C0F5E /* SMT Math Tests.xctest */,
+				C2383DBB1FA4966A004C0F5E /* tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2383D9A1FA492FE004C0F5E /* Sources */ = {
+		C2383D9A1FA492FE004C0F5E /* sources */ = {
 			isa = PBXGroup;
 			children = (
 				C2383DA31FA49332004C0F5E /* SMT Complex.swift */,
 				C2383DA21FA49332004C0F5E /* SMT Math.swift */,
 				C2383DA41FA49332004C0F5E /* SMT Matrix.swift */,
 			);
-			path = Sources;
+			path = sources;
 			sourceTree = "<group>";
 		};
-		C2383DAD1FA49394004C0F5E /* SMT Math Tests */ = {
+		C2383DBC1FA4966A004C0F5E /* tests */ = {
 			isa = PBXGroup;
 			children = (
 				C2383DAE1FA49394004C0F5E /* SMT Math Tests.swift */,
-				C2383DB01FA49394004C0F5E /* Info.plist */,
+				C2383DBF1FA4966A004C0F5E /* Info.plist */,
 			);
-			path = "SMT Math Tests";
+			path = tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,21 +116,21 @@
 			productReference = C2383D981FA492FE004C0F5E /* Swift Math Library */;
 			productType = "com.apple.product-type.tool";
 		};
-		C2383DAB1FA49394004C0F5E /* SMT Math Tests */ = {
+		C2383DBA1FA4966A004C0F5E /* tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2383DB11FA49394004C0F5E /* Build configuration list for PBXNativeTarget "SMT Math Tests" */;
+			buildConfigurationList = C2383DC01FA4966A004C0F5E /* Build configuration list for PBXNativeTarget "tests" */;
 			buildPhases = (
-				C2383DA81FA49394004C0F5E /* Sources */,
-				C2383DA91FA49394004C0F5E /* Frameworks */,
-				C2383DAA1FA49394004C0F5E /* Resources */,
+				C2383DB71FA4966A004C0F5E /* Sources */,
+				C2383DB81FA4966A004C0F5E /* Frameworks */,
+				C2383DB91FA4966A004C0F5E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "SMT Math Tests";
-			productName = "SMT Math Tests";
-			productReference = C2383DAC1FA49394004C0F5E /* SMT Math Tests.xctest */;
+			name = tests;
+			productName = tests;
+			productReference = C2383DBB1FA4966A004C0F5E /* tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -147,7 +147,7 @@
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
-					C2383DAB1FA49394004C0F5E = {
+					C2383DBA1FA4966A004C0F5E = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
 					};
@@ -166,13 +166,13 @@
 			projectRoot = "";
 			targets = (
 				C2383D971FA492FE004C0F5E /* Swift Math Library */,
-				C2383DAB1FA49394004C0F5E /* SMT Math Tests */,
+				C2383DBA1FA4966A004C0F5E /* tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C2383DAA1FA49394004C0F5E /* Resources */ = {
+		C2383DB91FA4966A004C0F5E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -193,14 +193,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2383DA81FA49394004C0F5E /* Sources */ = {
+		C2383DB71FA4966A004C0F5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2383DB41FA49425004C0F5E /* SMT Complex.swift in Sources */,
-				C2383DB51FA49425004C0F5E /* SMT Matrix.swift in Sources */,
-				C2383DB61FA49425004C0F5E /* SMT Math.swift in Sources */,
-				C2383DAF1FA49394004C0F5E /* SMT Math Tests.swift in Sources */,
+				C2383DC41FA4969A004C0F5E /* SMT Complex.swift in Sources */,
+				C2383DC51FA4969A004C0F5E /* SMT Math.swift in Sources */,
+				C2383DC61FA4969A004C0F5E /* SMT Matrix.swift in Sources */,
+				C2383DC31FA49672004C0F5E /* SMT Math Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,27 +331,27 @@
 			};
 			name = Release;
 		};
-		C2383DB21FA49394004C0F5E /* Debug */ = {
+		C2383DC11FA4966A004C0F5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "SMT Math Tests/Info.plist";
+				INFOPLIST_FILE = tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Blubyte.SMT-Math-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = Blubyte.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		C2383DB31FA49394004C0F5E /* Release */ = {
+		C2383DC21FA4966A004C0F5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = "SMT Math Tests/Info.plist";
+				INFOPLIST_FILE = tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Blubyte.SMT-Math-Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = Blubyte.tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
@@ -378,11 +378,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2383DB11FA49394004C0F5E /* Build configuration list for PBXNativeTarget "SMT Math Tests" */ = {
+		C2383DC01FA4966A004C0F5E /* Build configuration list for PBXNativeTarget "tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2383DB21FA49394004C0F5E /* Debug */,
-				C2383DB31FA49394004C0F5E /* Release */,
+				C2383DC11FA4966A004C0F5E /* Debug */,
+				C2383DC21FA4966A004C0F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
